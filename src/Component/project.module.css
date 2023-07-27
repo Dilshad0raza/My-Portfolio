@@ -1,0 +1,30 @@
+#main{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+#main>#info{
+    margin-top: 70px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+#main>#info>.hed{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(236, 132, 132);
+
+}
+#main>#info>.subhed{
+     font-size: 30px;
+     margin-bottom: 15px;
+     color: rgb(129, 129, 250);
+     font-style: oblique;
+}
+p{
+    margin-bottom: 15px;
+    letter-spacing:1px;
+    word-spacing: 8px;
+    font-style: italic;
+}

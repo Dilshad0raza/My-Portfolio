@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#Nav{
+    position: fixed;
+    width: 100%;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+    /* position: fixed; */
+    /* display: flex; */
+    /* align-items: center; */
+}
+nav>ol{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav>ol>.info>.Link{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+
+}
+nav>ol>.info{
+    margin-top: 25px;
+}
+nav>ol>#name{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+nav>ol>#name>span{
+    margin-top: 10px;
+    color: red;
+    font-size: 50px;
+}
+h1{
+
+    background-color:red;
+    height: 2px;
+    
+}

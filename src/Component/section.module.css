@@ -1,0 +1,35 @@
+#about{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    /* position: fixed; */
+}
+#about>#infodiv{
+    width: 60%;
+}
+#about>#infodiv>h2{
+    margin-top: 50px;
+    color:rgb(235, 26, 61);
+    font-size: 50px;
+    margin-left: 50px;
+
+}
+#about>#infodiv>h3{
+    color: white;
+    margin-left: 100px;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    
+    font-style: italic;
+    
+}
+#about>#imgdiv{
+    margin-top: 240px;
+    width: 40%;
+    margin-left: 50px;
+    
+    
+}
+#about>#imgdiv>img{
+    width: 600px;
+}

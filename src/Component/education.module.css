@@ -1,0 +1,40 @@
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+
+}
+#main>#imgi{
+    width: 40%;
+    /* background: beige; */
+}
+#main>#imgi>img{
+    margin-top: 155px;
+    height: 500px;
+    width: 400px;
+    margin-left: 80px;
+    
+}
+#main>#info{
+    width: 60%;
+    color: white;
+    font-size: 20px;
+}
+#main>#info>#hed{
+    margin-top: 150px;
+    text-align: center;
+    color:rgb(234, 84, 84);
+    font-size: 60px;
+    margin-bottom: 50px;
+    
+}
+
+p{
+    font-size: 15px;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
